@@ -16,8 +16,22 @@ div.card {
 }
 
 body {
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 img {
   height: 7em;
+}
+h1 {
+  text-align: center;
+}
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-image {
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 10px;
 }

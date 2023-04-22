@@ -1,11 +1,11 @@
-'use strict';
+"use strict";
 
 const tradingCardData = [
   {
-    name: 'Balloonicorn',
-    skill: 'video games',
-    imgUrl: '/static/img/balloonicorn.jpg',
-  },
+    name: "Balloonicorn",
+    skill: "video games",
+    imgUrl: "/static/img/balloonicorn.jpg"
+  }
 ];
 
 function TradingCard(props) {
@@ -19,16 +19,28 @@ function TradingCard(props) {
 }
 
 ReactDOM.render(
-  <TradingCard name="Balloonicorn" skill="video games" imgUrl="/static/img/balloonicorn.jpg" />,
-  document.querySelector('#balloonicorn'),
+  <TradingCard
+    name="Balloonicorn"
+    skill="video games"
+    imgUrl="/static/img/balloonicorn.jpg"
+  />,
+  document.querySelector("#balloonicorn")
 );
 
 ReactDOM.render(
-  <TradingCard name="Float" skill="baking pretzels" imgUrl="/static/img/float.jpg" />,
-  document.querySelector('#float'),
+  <TradingCard
+    name="Float"
+    skill="baking pretzels"
+    imgUrl="/static/img/float.jpg"
+  />,
+  document.querySelector("#float")
 );
 
 ReactDOM.render(
-  <TradingCard name="Llambda" skill="knitting scarves" imgUrl="/static/img/llambda.jpg" />,
-  document.querySelector('#llambda'),
+  <TradingCard
+    name="Llambda"
+    skill="knitting scarves"
+    imgUrl="/static/img/llambda.jpg"
+  />,
+  document.querySelector("#llambda")
 );
